@@ -6,5 +6,5 @@ func main() {
 	// fmt.Println(week1.ContainsDuplicate([]int{1, 2, 3, 1}))
 	// fmt.Println(week1.ValidAnagram("listen", "silent"))
 	// fmt.Println(week1.MoveZeros([]int{0, 1, 0, 3, 12}))
-
+	// fmt.Println(week1.BestBuy([]int{7, 1, 5, 3, 6, 4}))
 }
