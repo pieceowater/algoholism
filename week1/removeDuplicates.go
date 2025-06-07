@@ -1,17 +1,12 @@
 package week1
 
 func RemoveDuplicates(nums []int) []int {
-	currIndex, insertIndex := 0, 0
-	for currIndex < len(nums)-1 {
-		// fmt.Println("---", currIndex)
-		// fmt.Println(">>>", insertIndex)
-		// fmt.Println(nums[currIndex])
-		// fmt.Println(nums[currIndex], "!=", nums[currIndex+1])
-		if nums[currIndex] != nums[currIndex+1] {
-			nums[insertIndex] = nums[currIndex]
-			insertIndex++
+	c, i := 0, 1
+	for ; c <= len(nums)-2; c++ {
+		if nums[c] != nums[c+1] {
+			nums[i] = nums[c+1]
+			i++
 		}
-		currIndex++
 	}
-	return nums
+	return nums[:i]
 }
