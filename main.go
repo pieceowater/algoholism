@@ -14,5 +14,6 @@ func main() {
 	// fmt.Println(week1.BestBuy([]int{7, 1, 5, 3, 6, 4}))
 	// fmt.Println(week1.RemoveDuplicates([]int{1, 1, 2, 2, 3}))
 	// fmt.Println(week1.Intersection([]int{1, 2, 2, 1}, []int{2, 2}))
-	fmt.Println(week1.NonRepeati([]int{2, 3, 4, 2, 3, 5, 4}))
+	// fmt.Println(week1.NonRepeati([]int{2, 3, 4, 2, 3, 5, 4}))
+	fmt.Println(week1.TargetSubarraySum([]int{1, 2, 3}, 3))
 }
