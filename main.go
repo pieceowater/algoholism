@@ -17,6 +17,10 @@ func main() {
 	// fmt.Println(week1.NonRepeati([]int{2, 3, 4, 2, 3, 5, 4}))
 	// fmt.Println(week1.TargetSubarraySum([]int{1, 2, 3}, 3))
 
+	// root := &week2.TreeNode{Val: 3, Left: &week2.TreeNode{Val: 9}, Right: &week2.TreeNode{Val: 20, Left: &week2.TreeNode{Val: 15}, Right: &week2.TreeNode{Val: 7}}}
+	// fmt.Println(week2.LevelOrderTraversal(root))
+
 	root := &week2.TreeNode{Val: 3, Left: &week2.TreeNode{Val: 9}, Right: &week2.TreeNode{Val: 20, Left: &week2.TreeNode{Val: 15}, Right: &week2.TreeNode{Val: 7}}}
-	fmt.Println(week2.LevelOrderTraversal(root))
+	fmt.Println(week2.MaxDepth(root))
+
 }

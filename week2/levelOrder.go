@@ -1,11 +1,5 @@
 package week2
 
-type TreeNode struct {
-	Val   int
-	Left  *TreeNode
-	Right *TreeNode
-}
-
 func LevelOrderTraversal(root *TreeNode) [][]int {
 	if root == nil {
 		return nil
